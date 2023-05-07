@@ -1,5 +1,5 @@
 terraform {
-    source = "https://github.com/rashminetra/aws-vpc.git//modules/vpc?ref=main"
+    source = "git::https://github.com/rashminetra/aws-vpc.git//modules/vpc?ref=main"
 }
 
 inputs = {
